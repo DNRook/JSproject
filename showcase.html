@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+	    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	    <title>Practice Showcase</title>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#icon').click(function(){
+                    $('ul').toggleClass('show');
+                    $('ul').toggleClass('darken');
+                    $('.gone').fadeToggle(1000);
+                    $('.para-one').toggleClass('white');
+                    $('.para-two').fadeToggle(1000);
+                    $('.card').fadeToggle(1000);
+                });
+            });
+            </script>
+    </head>
+
+    <body>
+        <div id="Showcase">
+            <div class="para-one">
+                <nav>
+                    <label class="logo"> !NTERIOR </label>
+                         <ul>
+                             <li> <a  href="index.html"> Home</a></li>
+                             <li> <a class="active " href="#"> Showcase</a></li>
+                              <li> <a  href="newsletter.html"> Newletter</a></li>
+                         </ul>
+                     <label id="icon">
+                      <i class='fas fa-stream'></i>
+                    </label>
+                </nav>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam nobis accusantium tempora reprehenderit corrupti ipsa!</p>
+              </div>
+        </div>
+    
+        
+        <section>
+            <div id="myCarousel" class="carousel slide gone" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+              
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner carouselWidth">
+                  <div class="item active">
+                    <div class="flex">
+                     <img class="image" src="slide1.jpg" alt="Los Angeles">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque dolorem dolor enim, voluptatem laboriosam iusto possimus quam minus necessitatibus quisquam quas esse accusamus ea! Deleniti voluptas quidem magni. Itaque!</p>
+                    </div> 
+                  </div>
+              
+                  <div class="item">
+                    <div class="flex">
+                      <img class="image" src="slide2.jpg" alt="Chicago">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cumque libero veniam. Doloremque distinctio at adipisci quasi optio ab neque, unde minus! Omnis natus nulla molestiae ipsum soluta, saepe mollitia?</p>
+                    </div>
+                  </div>
+              
+                  <div class="item">
+                    <div class="flex">
+                      <img class="image" src="slide3.jpg" alt="New York">
+                      <div>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Placeat atque culpa magni ut! Eius ipsa eveniet ea provident 
+                         id doloremque ducimus aliquid molestiae. 
+                         Reprehenderit natus laborum, nobis explicabo quos id.
+                      </p>
+                      <p>  
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Ut fugiat esse quas qui repellendus facere. 
+                        Deleniti cum illo in voluptate,
+                         eligendi expedita pariatur explicabo saepe dolor corrupti nulla sapiente eius.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+  
+        </div>
+      </section>
+        <div class="para-two"></div>
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Harum magni ab rem dolor tempore cumque obcaecati 
+                quas quo temporibus tenetur, perferendis eos delectus
+                 a praesentium libero mollitia velit aliquid beatae.
+            </p>
+        </div>
+    
+
+    </body>
+</html>
